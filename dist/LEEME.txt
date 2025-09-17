@@ -1,0 +1,48 @@
+# AFD - Distribución Completa - VERSIÓN CORREGIDA
+# ================================================
+
+Este paquete contiene todo lo necesario para ejecutar la aplicación AFD:
+
+## ✅ PROBLEMA RESUELTO:
+La versión anterior incluía comas (,) como símbolos extra en el alfabeto.
+Esta versión corregida maneja correctamente el formato de entrada.
+
+## Archivos incluidos:
+- `afd-1.0-SNAPSHOT.jar` - Ejecutable principal (9MB) **[USAR ESTE]**
+- `afd-1.0-SNAPSHOT-jar-with-dependencies.jar` - Ejecutable alternativo
+- `ejecutar-afd.bat` - Script de inicio para Windows
+- `ejecutar-afd.sh` - Script de inicio para Linux/macOS
+- `README-EJECUTABLE.md` - Documentación completa
+
+## Ejecución rápida:
+
+### Windows:
+```
+Doble clic en: ejecutar-afd.bat
+```
+
+### Linux/macOS:
+```bash
+chmod +x ejecutar-afd.sh
+./ejecutar-afd.sh
+```
+
+### Manual (cualquier OS):
+```bash
+java -jar afd-1.0-SNAPSHOT.jar
+```
+
+## 📝 FORMATO CORRECTO DE ALFABETO:
+- ✅ **Correcto:** `a,b,c` (separado por comas)
+- ❌ **Incorrecto:** `abc` (sin separadores)
+
+## Ejemplos válidos:
+- Binario: `0,1`
+- Letras: `a,b,c`
+- Mixto: `x,0,1,y`
+
+## Requisitos:
+- Java 17 o superior
+- JavaFX incluido en el JAR
+
+Para más información, consultar README-EJECUTABLE.md

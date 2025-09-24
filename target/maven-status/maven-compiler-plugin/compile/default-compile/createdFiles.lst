@@ -1,0 +1,14 @@
+co\edu\uptc\AFDForm.class
+co\edu\uptc\test\AFDTest.class
+co\edu\uptc\model\TransitionFunction.class
+co\edu\uptc\controller\AFDController.class
+co\edu\uptc\Main.class
+co\edu\uptc\model\Word.class
+co\edu\uptc\model\TransitionFunction$TransitionKey.class
+co\edu\uptc\view\AFDBuilderView.class
+co\edu\uptc\model\AFD.class
+co\edu\uptc\model\State.class
+co\edu\uptc\model\Alphabet.class
+co\edu\uptc\controller\AFDFileController.class
+co\edu\uptc\model\AFD$AFDResult.class
+co\edu\uptc\controller\AFDController$WordCandidate.class

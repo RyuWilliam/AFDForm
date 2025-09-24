@@ -128,9 +128,9 @@ public class AFDBuilderView {
         Label sectionTitle = new Label("Paso 1: Definir Alfabeto");
         sectionTitle.setFont(Font.font("Arial", FontWeight.BOLD, 18));
         
-        Label instructionLabel = new Label("Ingresa los símbolos del alfabeto (ej: ab, 01, abc):");
+        Label instructionLabel = new Label("Ingresa los símbolos del alfabeto separados por comas (ej: a,b,c o 0,1,2):");
         alphabetField = new TextField();
-        alphabetField.setPromptText("Ejemplo: ab");
+        alphabetField.setPromptText("Ejemplo: a,b,c");
         alphabetField.setPrefWidth(200);
         
         defineAlphabetButton = new Button("Definir Alfabeto");
